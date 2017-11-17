@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "micro index.js",
-    "dev": "nodemon --exec 'micro index.js'"
+    "dev": "nodemon --exec 'micro index.js'",
+    "deploy": "now && now alias"
   },
   "repository": {
     "type": "git",
