@@ -1,0 +1,27 @@
+{
+  "name": "airapps-loyalty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro index.js",
+    "dev": "nodemon --exec 'micro index.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/air-apps/airapps-loyalty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/air-apps/airapps-loyalty/issues"
+  },
+  "homepage": "https://github.com/air-apps/airapps-loyalty#readme",
+  "dependencies": {
+    "djb2": "0.0.2",
+    "micro": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
